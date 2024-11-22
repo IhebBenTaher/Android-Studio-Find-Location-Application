@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">projetmap</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="my_map_api_key">AIzaSyDC4gfHJew0P42VM8_KTKXSLk-g1mv8WFM</string>
+</resources>

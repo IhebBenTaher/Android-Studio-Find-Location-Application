@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:paddingStart="16dp">
+
+    <TextView
+        android:id="@+id/idPosition"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/pseudo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/numero"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:width="0dp" />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:width="0dp" />
+
+    <ImageView
+        android:id="@+id/posread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@drawable/baseline_read_more_24" />
+
+    <ImageView
+        android:id="@+id/possend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@drawable/baseline_send_24" />
+
+    <ImageView
+        android:id="@+id/posedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@drawable/baseline_edit_24" />
+
+    <ImageView
+        android:id="@+id/posdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@drawable/baseline_delete_24" />
+</LinearLayout>
